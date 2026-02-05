@@ -1,7 +1,7 @@
 # MultiHospital-HealthcareEDA
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Data Cleaning/Preparation](#data-cleaning-and-preparation)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 - [Tools Used](#tools-used)
 ## Project Overview
 This analysis of 55,500 patient records (54,966 after deduplication) from thousands of hospitals reveals how medical conditions influence patient volumes and how factors such as blood type, age, and gender impact their prevalence. It also helps to understand the operational bottlenecks, demographic patterns, and hospital performance to boost clinical efficiency and optimisation.
