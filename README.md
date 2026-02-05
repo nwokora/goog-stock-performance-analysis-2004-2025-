@@ -37,25 +37,25 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
 
 ### Key Cleaning Steps:
 
-1. **Column Standardization**
-   - Numeric/Date columns: Type conversion (`Age`, `Billing Amount`, Date of Admission, `Discharge Date)
-   - Name column: Consistent formatting
-   - Categorical: Trimmed whitespace (Medical Condition, Blood Type, etc.)
+**Column Standardisation**
+- Numeric/Date columns: Type conversion (`Age`, `Billing Amount`, Date of Admission, `Discharge Date)
+- Name column: Consistent formatting
+- Categorical: Trimmed whitespace (Medical Condition, Blood Type, etc.)
 
-2. **Duplicate Detection**
-   - Generated `Unique_ID` by concatenating: Name + Age + Gender + Blood Type + Date of Admission + Hospital + Discharge Date
-   - **Found & removed 534 duplicates** → 54,966 unique patient records
-   - Reset index + assigned `Admission_ID` as final unique identifier
+**Duplicate Detection**
+- Generated `Unique_ID` by concatenating: Name + Age + Gender + Blood Type + Date of Admission + Hospital + Discharge Date
+- **Found & removed 534 duplicates** → 54,966 unique patient records
+- Reset index + assigned `Admission_ID` as final unique identifier
 
-3. **Outlier Treatment (Domain-Driven)**
+**Outlier Treatment (Domain-Driven)**
    | Column | Issue | Treatment | Rationale |
    |--------|-------|-----------|-----------|
    | Age | None | None | All values realistic (0-120) |
    | Billing Amount | 106 negative values | Flagged as refunds | Common in healthcare datasets |
 
-4. **Feature Engineering**
-   - **Calculated Length of Stay (LoS)**: Discharge Date - Admission Date
-   - Dropped temporary `Unique_ID` column
+**Feature Engineering**
+- **Calculated Length of Stay (LoS)**: Discharge Date - Admission Date
+- Dropped temporary `Unique_ID` column
 
 **✅ Validation**: No missing values detected. All distributions are realistic for the healthcare domain.
 
@@ -68,21 +68,21 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
 
 ### Technical Approach
 
-**1. Univariate Analysis**
+**Univariate Analysis**
 - Distribution analysis by Medical Condition, Age, Gender, Blood Type
 - Summary statistics (mean, counts) for LoS, Billing Amount
 - Frequency tables for categorical variables
 
-**2. Bivariate Analysis** 
+**Bivariate Analysis** 
 - Cross-tabulations: Condition × Age Bracket, Condition × Gender
 - Groupby operations: Hospital volume by condition
 - Pivot tables: Admission Type proportions
 
-**3. Time-Series Analysis**
+**Time-Series Analysis**
 - LoS trends over admission dates
 - Temporal patterns in emergency vs elective admissions
 
-**4. Analytical Methods Used**
+**Analytical Methods Used**
 
 ## Analysis Findings
 ### 10 Business Questions Answered
