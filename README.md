@@ -1,10 +1,14 @@
 # MultiHospital-HealthcareEDA
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Data Sources](#data-sources)
 - [Tools Used](#tools-used)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Exploratory Data Analysis and Data Analysis](#exploratory-data-analysis-and-data-analysis)
+- 
 ## Project Overview
 This analysis of 55,500 patient records (54,966 after deduplication) from thousands of hospitals reveals how medical conditions influence patient volumes and how factors such as blood type, age, and gender impact their prevalence. It also helps to understand the operational bottlenecks, demographic patterns, and hospital performance to boost clinical efficiency and optimisation.
+
 ## Data Sources
 **Dataset**: Synthetic Healthcare Patient Records Dataset by [**Prasad Patil**](https://www.kaggle.com/prasad22).  
 **Post-Cleaning**: 54,966 rows (534 duplicates removed), and 17 columns (Admission_ID and Length of Stay added)  
@@ -14,6 +18,7 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
 - [`Healthcare_Dataset.csv`](https://www.kaggle.com/datasets/prasad22/healthcare-dataset) (55,500 rows and 15 columns - original)
 - [`Healthcare_cleaned.csv`](Healthcare_cleaned.csv) (54,966 rows and 17 columns - analysis-ready)
 - `data_dictionary.md` (column definitions + cleaning notes)
+- 
 - ## Tools Used
 **Excel** 
 - Initial data preview and exploration
@@ -54,6 +59,7 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
 **✅ Validation**: No missing values detected. All distributions are realistic for the healthcare domain.
 
 **Full pipeline**: `01_data_cleaning.py` (reproducible + commented)
+
 ## Exploratory Data Analysis and Data Analysis
 
 **Dataset Analyzed**: 54,966 cleaned patient records × 39,876 hospitals  
