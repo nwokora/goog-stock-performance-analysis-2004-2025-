@@ -8,7 +8,9 @@
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 - [Exploratory Data Analysis and Data Analysis](#exploratory-data-analysis-and-data-analysis)
 - [Analysis Findings](#analysis-findings)
-- [Insights and Recommendations](#insights-and-recommendations)
+- [Insights](#insights)
+- [Recommendations](#recommendations)
+- [Visualizations](#visualizations)
 - [Author](#author)
 
 ## Project Overview
@@ -107,13 +109,15 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
 | Q10| Average Length of Stay Trend Over Time? | [LoS stays around 15 days from 2019-2024, with 2024 just nudging toward 16th day](<img width="701" height="406" alt="Average LoS Trend" src="https://github.com/user-attachments/assets/7b4854cb-bb3c-4556-995f-5001a6a28374" />
 ) |
 
-## Insights and Recommendations
+## Insights
 - **Asthma crisis**: Highest volume + longest stays = operations bottleneck
 - **Hypertension testing**: 33.5% inconclusive = diagnostic urgency  
 - **Arthritis demographics**: 30-50yo women peak = targeted screening
 - **System fragmentation**: 39K hospitals averaging 1.4 patients each
 
-### 📊 Visualizations
+## Recommendations
+
+## Visualizations
 ![Patient Volume](figures/q1_patient_volume.png) ![LoS by Condition](figures/q3_los_condition.png)  
 ![Arthritis Demographics](figures/q5_arthritis_demo.png)
 
