@@ -110,13 +110,15 @@ A synthetic healthcare dataset containing 55,500 patient records across 15 colum
 1. **Adult-Dominated Chronic Care** (95%+ volume 18-64+)  
    • Arthritis leads overall (9,218 patients), rising from ~800 cases under 30 to peak at ~1,300 during prime working years (30-70), then easing to ~1,000 for 70+. Working-age adults also carry the burden, but contrary to the dataset, the incidence of real arthritis continues to rise past 70.  
    • Pediatrics minimal (2-3%, 11-27/condition), realistic for what you would expect in a real general hospital, not a children's specialty center.
+   (<img width="699" height="415" alt="Patient volume vs Age group" src="https://github.com/user-attachments/assets/a0f503fc-6462-4df7-b65e-eadaf29cabf3" />
+)
    
-2. **Uniformity Anomalies** (Synthetic Generator Signatures)  
+3. **Uniformity Anomalies** (Synthetic Generator Signatures)  
    • Test results split almost perfectly, ~33% Abnormal/Inconclusive/Normal across every single condition, showing synthetic data uniformity.  
    • Diabetes cases spread evenly across blood types (12-13% range)—A+ 'wins' by a microscopic gap that's clinically meaningless.  
    • The 6 medical conditions show nearly identical age patterns across all age groups, showing synthetic uniformity, not real clinical variation.
    
-3. **Unrealistic Clinical Metrics**  
+4. **Unrealistic Clinical Metrics**  
    • 33.5% for inconclusive cases of hypertension stand out as unusual in a real-world healthcare dataset.  
    • Average Length of Stay (15.4-15.7) across Diabetes to Asthma) makes no clinical sense because real-world hospital stays for common conditions like Diabetes and Asthma are far shorter, typically 2-5 days on average.   
    • Hypertension (11) and Arthritis (21) are hardly seen in real-world clinical datasets, further confirming the dataset's synthetic nature.
