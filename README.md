@@ -22,7 +22,7 @@ This analysis of 55,500 patient records (54,966 after deduplication) from thousa
 - Data Dictionary.md` (column definitions + cleaning notes)
 
 ## Data Sources
-Google Stock Dataset (2004–2025) [Download](https://www.kaggle.com/datasets/muqaddasejaz/google-stock-dataset-20042025)
+2004-2025 Google Stock Dataset (5,279 rows × 7 columns) [Download](https://www.kaggle.com/datasets/muqaddasejaz/google-stock-dataset-20042025)
 
 ## Tools Used
 **Excel** 
@@ -36,8 +36,6 @@ Google Stock Dataset (2004–2025) [Download](https://www.kaggle.com/datasets/mu
 **Workflow**: Excel preview → Python cleaning → Pandas analysis → Matplotlib charts
 
 ## Data Cleaning and Preparation
-**Raw dataset**: 5,279 rows × 7 columns (pre-wrangling).  
-**Processed dataset**: 5,279 rows, and 11 columns(4 added).
 
 ### Data Quality Check:
 
