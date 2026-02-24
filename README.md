@@ -90,19 +90,9 @@ Multiple synthetic artefacts invalidate it for real-world healthcare insights; t
 
 
 ## Visualizations
-### 📊 Visualizations
-<details>
-<summary>Click to see chart insights</summary>
 
-| Chart | Key Insight |
-|-------|-------------|
-| Patient Volume | Hospital A leads with 25% total admissions |
-| LoS by Condition | Arthritis: longest average stay |
-| Arthritis Demographics | Peaks 30-70, drops after 70 (data anomaly) |
-</details>
 
-![Patient Volume](figures/q1_patient_volume.png) ![LoS by Condition](figures/q3_los_condition.png)  
-![Arthritis Demographics](figures/q5_arthritis_demo.png)
+
 
 **Complete analysis**: `Healthcare_Analysis.ipynb` (interactive charts + code)
 
