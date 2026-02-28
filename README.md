@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Files Provided](#files-provided)
-- [Data Source](#data-source)
+- [Data Sources](#data-sources)
 - [Tools Used](#tools-used)
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 - [Exploratory Data Analysis and Data Analysis](#exploratory-data-analysis-and-data-analysis)
@@ -21,7 +21,7 @@ Skills demonstrated include: data import/cleanup, crisis performance insights, c
 
 ## Files Provided    
 
-## Data Source
+## Data Sources
 Google Stock Dataset (2004–2025) by MuqadasEjaz and collaborators on Kaggle (5,279 rows × 7 columns). [Download](https://www.kaggle.com/datasets/muqaddasejaz/google-stock-dataset-20042025)
 
 ## Tools Used
@@ -86,7 +86,14 @@ Google Stock Dataset (2004–2025) by MuqadasEjaz and collaborators on Kaggle (5
 
 
 ## Insight
+### 1. Trading Volume Pattern
+When Google launched its IPO, 2005 exploded with massive trading volume, the highest in both total shares traded and average daily volume. This is largely due to the rush to own shares. As the stock appreciated post-IPO, volumes declined due to institutionalised trading. 2025 had the lowest total volume (incomplete year), and 2024 had the lowest average daily volume.  
 
+### 2. Monthly Returns Pattern  
+Looking at average returns by month, October consistently delivers the highest gains for GOOG investors. On the other hand, investors earned less or even lost money in the months of February, June, and August.
+
+### 3. Stock Volatility Amid Crisis  
+GOOG stock bounces back strongly from every crisis. Handled the 2008 panic with quick recovery, flew back fast after COVID thanks to the tech boom, and steadily climbed out of the 2022 slowdown, showing the stock's proven ability to recover from shocks.
 
 ## Recommendation
 Multiple synthetic artefacts invalidate it for real-world healthcare insights; therefore, the dataset should not qualify for any serious healthcare analysis or modelling.
