@@ -1,5 +1,7 @@
 # 💹 Analysis of Coca-Cola (KO) Stock Performance from 1962 to 2022.
-Analysis of Coca-Cola Inc. (KO) daily OHLCV data highlights a robust 60-year growth path (1962 to 2022) that evolved from sparse trading volumes to elevated monthly averages. It narrows down the trends to show steady performance over decades. Power BI visuals use optimized charts to track price and volume growth by month, quarter, and year, and KPI cards to highlight win rates and returns.
+This comprehensive analysis of Alphabet Inc.'s daily OHLCV stock (GOOG) reveals a remarkable 20-year growth trajectory that saw the shares move from ~2.50 (August 19, 2004) to ~200 in 20 years (August 19, 2004 to August 2025), after it first entered its Initial Public Offering (IPO) on August 19, 2004.  
+It further narrows down the trend to mirror the 3 massive market crashes of the 2008 crisis, the COVID chaos, and the 2022 bear market.  
+Skills demonstrated include: data import/cleanup, crisis performance insights, clean matplotlib visualizations, as well as critical thinking and problem-solving, ideal for financial analysis insights.
 
 ## 📂 Repository Layout  
 - **🗄️ dataset** – Raw dataset and cleaned CSV files 
@@ -45,7 +47,7 @@ This folder holds all the final charts and visualizations created from this anal
 These include resistance trends over time, comparisons by gender, age group, and bacterial species. View charts here: **[Analysis Charts](https://github.com/nwokora/1962-to-2022-ko-stock-analysis/tree/main/analysis_charts)**
 
 ## 🔗 Data Source
-Google Stock Dataset (1962–2022) by Kalilur Rahman (Kaggle). **[Download Dataset](https://www.kaggle.com/datasets/kalilurrahman/coca-cola-stock-live-and-updated)**
+Google Stock Dataset (2004–2025) by MuqadasEjaz and collaborators on Kaggle (5,279 rows × 7 columns). **[Download Dataset](https://www.kaggle.com/datasets/muqaddasejaz/google-stock-dataset-20042025)**
 
 
 
