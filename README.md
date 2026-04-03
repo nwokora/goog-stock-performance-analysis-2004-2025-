@@ -36,7 +36,7 @@ KO achieved 140B total volume across 60 years (~15K trading days) at 2.33B avera
 
 ## 🗄️ Dataset
 **Raw Dataset** – Original KO stock data (1962-2022): open, high, low, close prices + daily volume (~15K trading days).  
-**Cleaned Dataset** – Processed CSVs with optimized data types for Power BI analysis. **[Dataset](https://github.com/nwokora/1962-to-2022-ko-stock-analysis/tree/main/dataset)**
+**Cleaned Dataset** – Processed CSVs with optimized data types for Power BI analysis. **[Dataset](https://github.com/nwokora/2004-to-2025-google-stock-analysis/tree/main/dataset)**
 
 ## ⚙️ Process Charts
 Work-in-progress charts showing screenshots of analysis steps. **[Process Charts](https://github.com/nwokora/2004-to-2025-google-stock-analysis/tree/main/process_charts)**
