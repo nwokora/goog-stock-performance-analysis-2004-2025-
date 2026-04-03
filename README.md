@@ -19,12 +19,10 @@ Skills demonstrated include: data import/cleanup, crisis performance insights, c
  ## 🧠 Skills Demonstrated
 - Data transformation from raw to cleaned datasets using pandas
 - Date series indexing and chronological sorting `df.set_index("date").sort_index()`
-- Preparation for time-based analysis and Power BI date hierarchies
 - Missing value detection `df.isna().sum()`
 - Duplicate identification `df.index.duplicated().sum()`
-- Power BI dashboard design for 60+ years of KO stock data trends
-- DAX measure creation (AVERAGE, SUM, DIVIDE) for accurate aggregations
-- Financial visualization of historical stock performance
+- Daily price range calculation `df["range"] = df["high"] - df["low"]`
+- Financial chart visualization of historical stock performance using Matplotlib
 - Problem-solving to match and analyse aggregation trends
 
 ## 📊 Business Questions Answered
