@@ -49,19 +49,19 @@ Google Stock Dataset (2004–2025) by MuqadasEjaz and collaborators on Kaggle (5
 ## 🔭 Visualizations
 <img width="1024" height="409" alt="03_goog_total_trading_volume_by_year" src="https://github.com/user-attachments/assets/c4d2b0e3-0e54-4f37-9552-ef7dcd95c341" />
 
-**Average fuel prices varied widely by region, with Oceania and Europe recording the highest values overall. The Middle East had the lowest average fuel price, while South America and Africa also had relatively low prices.**
+**Total Trading Volume by Year reveals how GOOG's trading activity evolved over the 21-year period from 2004 to 2025. The highest-volume year was 2005 with 108,150,653,430 shares traded, while the lowest-volume year was 2025 with 3,745,998,200 shares. Across all years, a total of 584,601,658,779 shares were traded. Overall, the pattern shows that trading volume was extremely high in the early years following GOOG's IPO, particularly in 2005, and has generally declined in more recent years.**
 
 <img width="1038" height="446" alt="05_goog_average_closing_price_by_year" src="https://github.com/user-attachments/assets/8968a1b3-58ac-4918-ab45-eaf543b2a282" />
    
-**Average tax percentages also differed noticeably by region. Oceania and Europe generally had the highest tax burdens, while South America had the lowest average tax percentage, followed by the Middle East.**
+**Average Closing Price by Year shows the lowest yearly average closing price was 3.85, while the highest was 177.86. Overall, the pattern shows a strong and consistent upward trend, with GOOG's price climbing dramatically from its early years after the IPO to much higher levels by the end of the period.**
 
 <img width="1027" height="445" alt="06_goog_average_daily_return_by_year" src="https://github.com/user-attachments/assets/4bc20532-9152-4e29-ac08-f5be9a19282e" />
 
-**The Middle East stands out with the highest average subsidy, and that matches its high share of Very High subsidy levels, while South America and Africa also show relatively stronger support than most regions. At the other end, Europe and especially Oceania have the lowest average subsidies, with Oceania being entirely in the Low subsidy category and Europe also heavily concentrated there. Overall, the pattern suggests that subsidy support is much stronger in the Middle East and weaker in Europe and Oceania.**
+**Average Daily Return by Year reveals the highest average daily return occurred in 2004 at +0.0071, while the lowest was in 2008 at -0.0026. The years 2014 and 2022 also posted negative average daily returns.**
 
 <img width="979" height="443" alt="07_goog_average_daily_return_by_month" src="https://github.com/user-attachments/assets/e4b2068c-db32-4289-8dee-748b5303935a" />
 
-**Oceania is the most concentrated in the High category, with Europe and North America also leaning strongly toward High. In contrast, Africa is mostly in the Low category, and South America dominates the Middle level. Asia shows a more mixed split across the three categories, while the Middle East shows a split only between Middle and High, with High making up the larger portion.**
+**Average Daily Return by Month reveals that the highest return month is October with an average daily return of +0.0037, while the lowest return month is February at -0.0014. Overall, GOOG tends to perform better in the fall months, particularly October, while early-year months like February tend to show weaker or negative returns, indicating some seasonal variation in the stock's performance.**
 
 ## 💡 Key Insights
 Fuel affordability varies significantly across continental regions and countries from 2020 to 2026. The analysis shows that Europe and Oceania generally face the highest fuel prices and tax burdens. At the same time, the Middle East and South America record the lowest prices, probably due to strong subsidy support and low taxes. Regions like Oceania, Europe, and North America, with stronger income concentration, are better positioned to absorb the brunt of these low subsidies and high taxes, while Africa may likely face greater affordability pressure due to low income. Overall, fuel affordability is shaped by the combined impact of prices, taxes, subsidies, and income levels, with the greatest strain falling on specific regions and countries that are most exposed to these pressures. Policymakers should therefore balance taxation with targeted subsidies, especially in lower-income regions, to improve affordability.
