@@ -1,9 +1,9 @@
-# 💹 Google (GOOG) Stock Performance Analysis (2004-2025)
+# 💹 GOOG Stock Performance Analysis (2004-2025)
 
 ## 📌 Overview
 This comprehensive analysis of Alphabet Inc.'s daily OHLCV stock (GOOG) reveals a remarkable 21-year growth trajectory, with shares rising from ~2.50 at its IPO on August 19, 2004, to ~200 by August 2025. The analysis mirrors how the stock performed through three major market downturns: the 2008 financial crisis, the COVID-19 market chaos, and the 2022 bear market.
 
-Skills demonstrated include data import and cleanup, crisis-performance analysis, clean matplotlib visualizations, and critical thinking and problem-solving.
+Skills demonstrated include data import and cleanup, crisis performance analysis, clean Matplotlib visualisations, and critical thinking and problem-solving.
 
 ## 🎯 Objective
 To analyze GOOG’s 21-year price performance from its IPO in 2004 through 2025, quantify its long-term growth, and evaluate how the stock fared during three major market crises (2008, COVID-19, and 2022) to assess its resilience and investment potential.
