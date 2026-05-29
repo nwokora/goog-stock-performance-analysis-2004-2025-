@@ -58,7 +58,7 @@ Google Stock Dataset (2004–2025) by MuqadasEjaz and collaborators on Kaggle (5
 
 <img width="962" height="354" alt="Screenshot 2026-05-29 125650" src="https://github.com/user-attachments/assets/9fbefec4-1e1f-4da8-acaa-f7cd52e91b22" />
 
-**Average Daily Return by Year reveals the highest average daily return occurred in 2004 at +0.0071, while the lowest was in 2008 at -0.0026. The years 2014 and 2022 also posted negative average daily returns.**
+**2004 delivered GOOG's highest average daily return at +0.0071, while 2008 recorded the lowest at -0.0026. 2022 also posted a negative average daily return. These negative years align with major market stress periods: the 2008 financial crisis and the 2022 bear market, which was exacerbated by post-COVID-19 economic adjustments. Rather than undermining confidence, these downturns actually highlight GOOG's resilience; the stock recovered strongly after both crises and continued its upward trajectory.**
 
 <img width="979" height="443" alt="07_goog_average_daily_return_by_month" src="https://github.com/user-attachments/assets/e4b2068c-db32-4289-8dee-748b5303935a" />
 
@@ -66,6 +66,8 @@ Google Stock Dataset (2004–2025) by MuqadasEjaz and collaborators on Kaggle (5
 
 ## 💡 Key Insights
 Fuel affordability varies significantly across continental regions and countries from 2020 to 2026. The analysis shows that Europe and Oceania generally face the highest fuel prices and tax burdens. At the same time, the Middle East and South America record the lowest prices, probably due to strong subsidy support and low taxes. Regions like Oceania, Europe, and North America, with stronger income concentration, are better positioned to absorb the brunt of these low subsidies and high taxes, while Africa may likely face greater affordability pressure due to low income. Overall, fuel affordability is shaped by the combined impact of prices, taxes, subsidies, and income levels, with the greatest strain falling on specific regions and countries that are most exposed to these pressures. Policymakers should therefore balance taxation with targeted subsidies, especially in lower-income regions, to improve affordability.
+
+For long-term investors, this pattern reinforces GOOG's appeal: while it experiences temporary drawdowns during systemic stress, its ability to rebound and sustain growth over time makes it a solid choice for 
 **[See All Insights](https://github.com/nwokora/2020-2026_global_fuel_prices_analysis/blob/main/insights.md)**
 
 ## 📂 Repository Layout  
